@@ -1,6 +1,7 @@
-package com.chethan.demoproject
+package com.Link.newsapp
 
-import com.chethan.demoproject.model.NewsModel
+import com.Link.newsapp.model.NewsModel
+import com.Link.newsapp.network.NetWorkApi
 import retrofit2.Call
 import retrofit2.Response
 

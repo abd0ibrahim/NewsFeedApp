@@ -1,4 +1,4 @@
-package com.chethan.demoproject.model
+package com.Link.newsapp.model
 
 
 import com.google.gson.annotations.SerializedName

@@ -1,10 +1,9 @@
-package com.chethan.demoproject
+package com.Link.newsapp.network
 
 
-import com.chethan.demoproject.model.NewsModel
+import com.Link.newsapp.model.NewsModel
 import retrofit2.Call
 import retrofit2.http.GET
-import retrofit2.http.Path
 import retrofit2.http.Query
 
 interface NetWorkApi {

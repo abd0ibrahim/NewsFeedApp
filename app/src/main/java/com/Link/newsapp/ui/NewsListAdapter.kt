@@ -1,4 +1,4 @@
-package com.chethan.demoproject.ui
+package com.Link.newsapp.ui
 
 import android.content.Context
 import android.support.v7.widget.RecyclerView
@@ -8,12 +8,10 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import com.bumptech.glide.Glide
-import com.chethan.demoproject.R
-import com.chethan.demoproject.model.Article
-import com.chethan.demoproject.utils.Utils
+import com.Link.newsapp.R
+import com.Link.newsapp.model.Article
+import com.Link.newsapp.utils.Utils
 import kotlinx.android.synthetic.main.news_list_item.view.*
-import java.text.SimpleDateFormat
-import java.util.*
 
 
 class NewsListAdapter(private val context: Context, private val articlesList: List<Article>) :

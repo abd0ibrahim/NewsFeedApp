@@ -1,4 +1,4 @@
-package com.chethan.demoproject
+package com.Link.newsapp
 
 import org.junit.Test
 

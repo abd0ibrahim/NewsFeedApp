@@ -1,4 +1,4 @@
-package com.chethan.demoproject
+package com.Link.newsapp
 
 import android.os.Bundle
 import android.support.v4.widget.DrawerLayout

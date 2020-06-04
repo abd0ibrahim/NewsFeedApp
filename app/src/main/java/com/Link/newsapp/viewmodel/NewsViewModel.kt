@@ -1,8 +1,8 @@
-package com.chethan.demoproject
+package com.Link.newsapp
 
 import android.arch.lifecycle.MutableLiveData
 import android.arch.lifecycle.ViewModel
-import com.chethan.demoproject.model.NewsModel
+import com.Link.newsapp.model.NewsModel
 import org.koin.standalone.KoinComponent
 
 

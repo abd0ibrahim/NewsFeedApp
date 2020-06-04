@@ -1,4 +1,4 @@
-package com.chethan.demoproject
+package com.Link.newsapp
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4

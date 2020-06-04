@@ -30,7 +30,7 @@
 
 <!--            <include layout="@layout/nav_header_main" />-->
 
-            <fragment android:name="com.chethan.demoproject.ui.DrawerFragment"
+            <fragment android:name="com.Link.newsapp.ui.DrawerFragment"
                     android:id="@+id/article_fragment"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" />

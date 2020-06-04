@@ -1,4 +1,4 @@
-package com.chethan.demoproject.utils
+package com.Link.newsapp.utils
 
 import java.text.SimpleDateFormat
 import java.util.*

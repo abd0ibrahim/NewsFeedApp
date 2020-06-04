@@ -1,4 +1,4 @@
-package com.chethan.demoproject
+package com.Link.newsapp
 
 import android.arch.lifecycle.Observer
 import android.os.Bundle
@@ -9,8 +9,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.LinearLayout
-import com.chethan.demoproject.model.NewsModel
-import com.chethan.demoproject.ui.NewsListAdapter
+import com.Link.newsapp.model.NewsModel
+import com.Link.newsapp.ui.NewsListAdapter
 import org.koin.android.viewmodel.ext.android.viewModel
 
 class NewsListFragment : Fragment() {

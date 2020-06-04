@@ -1,4 +1,4 @@
-package com.chethan.demoproject
+package com.Link.newsapp
 
 import android.content.Intent
 import android.net.Uri
@@ -11,8 +11,8 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import com.bumptech.glide.Glide
-import com.chethan.demoproject.model.Article
-import com.chethan.demoproject.utils.Utils
+import com.Link.newsapp.model.Article
+import com.Link.newsapp.utils.Utils
 
 
 class NewsDetailsFragment : Fragment() {
