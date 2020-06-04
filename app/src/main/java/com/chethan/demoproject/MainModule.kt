@@ -12,7 +12,7 @@ val mainModule = module {
 
     single { createWebService() }
 
-    viewModel { ProductViewModel(get()) }
+    viewModel { NewsViewModel(get()) }
 
 }
 

@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         handleSideMenu(toolbar)
 
         supportFragmentManager.beginTransaction()
-            .replace(R.id.frag_container, ProductListFragment()).commit()
+            .replace(R.id.frag_container, NewsListFragment()).commit()
 
     }
 
