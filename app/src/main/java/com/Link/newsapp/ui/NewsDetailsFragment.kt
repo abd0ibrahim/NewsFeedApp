@@ -20,11 +20,11 @@ class NewsDetailsFragment : Fragment() {
     lateinit var article: Article
 
     companion object {
-        const val KEY_PRODUCT = "KEY_PRODUCT"
+        const val KEY_ARTICLE = "KEY_ARTICLE"
 
         fun newInstance(article: Article): NewsDetailsFragment {
             val args = Bundle()
-            args.putSerializable(KEY_PRODUCT, article)
+            args.putSerializable(KEY_ARTICLE, article)
             val fragment = NewsDetailsFragment()
             fragment.arguments = args
             return fragment
@@ -34,7 +34,7 @@ class NewsDetailsFragment : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
-            article = it.getSerializable(KEY_PRODUCT) as Article
+            article = it.getSerializable(KEY_ARTICLE) as Article
         }
     }
 
